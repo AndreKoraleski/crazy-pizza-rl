@@ -12,6 +12,7 @@ class LogLevel(str, Enum):
     INFO = "INFO"
     DEBUG = "DEBUG"
 
+
 class LogFormat(str, Enum):
     """
     Enum for log output formats.
