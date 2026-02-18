@@ -1,0 +1,17 @@
+[project]
+name = "crazy-pizza-rl"
+version = "0.1.0"
+description = "RL attempt at getting the best possible way to play the game Crazy Pizzeria."
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "pydantic>=2.12.5",
+    "pydantic-settings>=2.13.0",
+    "structlog>=25.5.0",
+]
+
+[dependency-groups]
+dev = [
+    "black>=26.1.0",
+    "ruff>=0.15.1",
+]
